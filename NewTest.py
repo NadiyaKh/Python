@@ -9,3 +9,4 @@ def check(text):
 print(check('abc')==False)
 print(check('absdfghjklqwertyuiopzxcvbnm') == True)
 print(check('ASDFGHJKLQWERTYUIOPZXCVBNM')==True)
+print(check("Quick brown fox jums over lazy dog")==True)
