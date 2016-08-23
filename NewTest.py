@@ -1,7 +1,8 @@
-albhabet = "asdfghjklqwertyuiopzxcvbnm"
+alphabet = "asdfghjklqwertyuiopzxcvbnm"
 
 
 
 def check(text):
 	return set(text.lower()).issuperset(set(alphabet))
-	print ("test")
+
+print(check("abc"))
