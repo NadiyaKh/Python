@@ -1,3 +1,4 @@
+#Copyright unknown 2016
 from string import ascii_lowercase as az
 
 
