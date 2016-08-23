@@ -8,3 +8,4 @@ def check(text):
 
 print(check('abc')==False)
 print(check('absdfghjklqwertyuiopzxcvbnm') == True)
+print(check('ASDFGHJKLQWERTYUIOPZXCVBNM')==True)
