@@ -1,0 +1,7 @@
+test = input ('enter your pangram:')
+set_text=set(text.lower())
+alpha = set (‘asdfghjklqwertyuiopzxcvbnm’)
+if set_text.issuperset(alpha): 
+	print(“this is truly pangram”) 
+else: 
+	print(‘false pangram’)

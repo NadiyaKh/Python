@@ -1,0 +1,5 @@
+x=input ("Enter number")
+try:
+  x = float (x)
+except ValueError:
+  print ("it's not number")
